@@ -6,13 +6,7 @@ console.log("Sanity Check");
 
 $(function() {
     $('body').vegas({
-    delay: 7000,
-    timer: false,
-    shuffle: true,
-    firstTransition: 'fade',
-    firstTransitionDuration: 5000,
-    transition: 'slideDown2',
-    transitionDuration: 2000,
+
         slides: [
             { src: 'https://i.imgur.com/pRWZR0X.jpg' },
             { src: 'https://i.imgur.com/AcR0hqH.jpg' },
